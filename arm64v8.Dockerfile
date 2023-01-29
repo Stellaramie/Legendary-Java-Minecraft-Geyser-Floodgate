@@ -24,13 +24,13 @@ ENV Port=25565
 ENV BedrockPort=19132
 
 # Optional maximum memory Minecraft is allowed to use
-ENV MaxMemory=
+ENV MaxMemory=6144
 
 # Optional Paper Minecraft Version override
 ENV Version="1.19.3"
 
 # Optional Timezone
-ENV TZ="America/Denver"
+ENV TZ="Europe/London"
 
 # Optional folder to ignore during backup operations
 ENV NoBackup=""
